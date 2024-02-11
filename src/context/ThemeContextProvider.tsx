@@ -30,9 +30,6 @@ export default function ThemeContextProvider({
     }
   };
 
-  //IMP
-  // useEffect hm is liye use kr rhe hai taki ho var hmne local storage me store krvaya hai use hum re use kr ske agar user page ko refresh kr leta hai to ab user ne theme change kr diya and page referesh kr diya page referesh hone k baad browser behaviour k acc. sb kuch phle jaisa ho jyga but hme ye nahi chahiye hme to jo state usne set kri vo hi chahiye to hm local storage se us set varriable ko use krege and theme ko use krege. ab useEffect jo hota vo hmara function ko page  load hone k baad chlata hai jaise hi page load ho local storage read ho and user k dwara set ki gyi theme aa jaye
-
   useEffect(() => {
     // yha hmne read kr liya local storage se variable and uske types bhi set kr diye humne
     const localTheme = window.localStorage.getItem("theme") as themetype | null;
