@@ -35,7 +35,6 @@ export default function ActiveSectionContextProvider({
 
 export function useActiveSectionContext() {
   const ctx = useContext(ActiveSectionContext);
-  console.log("ctx", ctx);
   if (ctx === null) {
     throw new Error("Use active section context must be used in a provider");
   }

@@ -1,3 +1,4 @@
+"use client";
 import "../globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
@@ -10,18 +11,13 @@ import { Providers } from "../providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Himanshu | Personal Portfolio",
-  description: "Hey there, I'm a Full Stack Developer.",
-};
-
 type Children = {
   children: React.ReactNode;
 };
 export default function MainLayout({ children }: Children) {
   return (
-    <html lang="en" className="!scroll-smooth">
-      <body
+    <div lang="en" className="!scroll-smooth">
+      <div
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-24 sm:pt-32 dark:bg-gray-900 dark:text-gray-500 dark:text-opacity-90 flex flex-col justify-center items-center`}
       >
         <div className="bg-[#fbe2e3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946363]"></div>
@@ -38,7 +34,7 @@ export default function MainLayout({ children }: Children) {
           <Footer />
           <Theme />
         </Providers>
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }

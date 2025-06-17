@@ -1,3 +1,4 @@
+"use client";
 type SectionHeadingProps = {
   children: React.ReactNode;
 };

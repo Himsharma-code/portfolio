@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import reactIcon from "../../public/react.png";
 import framerIcons from "../../public/framer.png";
