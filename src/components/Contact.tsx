@@ -1,4 +1,3 @@
-"use client";
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect } from "react";
 import SectionHeading from "./SectionHeading";
