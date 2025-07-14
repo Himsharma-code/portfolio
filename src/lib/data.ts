@@ -38,28 +38,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "UI Engineer Intern",
-    location: "Banglore, India",
+    title: "Full Stack Developer",
+    location: "Space-o InfoWeb Pvt. Ltd., Ahemdabad",
     description:
-      "I'm working as a UI Intern at ParallelHq. I am honing my frontend development skill, actively contributin to the creation of captivating websites that offer exceptional user experiences  ",
+      "Built a recommendation system using React.js, NestJS, and pgvector, processing product data from CSV files. Generated vector embeddings for similarity search. Designed and developed an admin dashboard for a food ordering app with order management and user analytics.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "12/2024 - 07/2025",
   },
   {
-    title: "Free lance webflow Developer",
-    location: "Chandigarh, Haryana",
+    title: "Full Stack Software Developer",
+    location: "SyncSignature, Surat",
     description:
-      "Side by Side with my college and ongoing internship I also decided to go into Freelancing and learn about how the freelance world works and it is going pretty smooth till now.",
-    icon: React.createElement(SiFreelancer),
-    date: "2023 - present",
+      "Led full-stack development, managing frontend (React.js, ShadCN UI, Tailwind CSS) and backend (Node.js, GraphQL). Developed workspace module for multi-user collaboration. Implemented AI image generation, AWS SES for emails, and converted platform to PWA (30% load time reduction).",
+    icon: React.createElement(CgWorkAlt),
+    date: "02/2024 - 12/2024",
   },
   {
-    title: "Master's of computer applications",
-    location: "Chandigarh, India",
+    title: "Web Developer",
+    location: "Ciphernutz IT Services, Surat",
     description:
-      "Currently I'm in final year of my master's degree where I got to learn a lot of new technologies and made different projects with every semester",
+      "Developed tax document management web app with React.js and WebSocket. Built loan service onboarding using React.js and TypeScript. Contributed to tech networking platform with Next.js. Integrated CMS platforms like Sanity and Strapi.",
+    icon: React.createElement(CgWorkAlt),
+    date: "10/2021 - 01/2024",
+  },
+  {
+    title: "Electrical Engineering",
+    location: "GEC, Bharuch",
+    description: "Graduated with GPA: 7.41",
     icon: React.createElement(LuGraduationCap),
-    date: "2021-present",
+    date: "2020",
   },
 ] as const;
 
