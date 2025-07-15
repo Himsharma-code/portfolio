@@ -70,7 +70,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Himanshu.</span> I'm a
-        Experienced Full Stack Developer with 2+ years of success in crafting
+        Experienced Full Stack Developer with 3+ years of success in crafting
         advanced web applications. Proﬁcient in JavaScript, TypeScript,
         React.js, Node JS and Redux open to learn new technologies.
       </motion.h1>
