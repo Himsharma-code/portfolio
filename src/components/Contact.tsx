@@ -89,7 +89,7 @@ export default function Contact() {
 
           <div className="sm:max-w-[15rem] w-full mt-[1rem]">
             <Link
-              href="mailto:suhelkhan9588321151@gmail.com"
+              href="mailto:himanshu15101998@gmail.com"
               className="group  bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-[0.5rem] outline-none transition hover:bg-gray-950 active:scale-95 dark:hover:bg-gray-800
           "
             >
