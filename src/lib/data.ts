@@ -76,7 +76,7 @@ export const projectsData = [
     description:
       "A peer-to-peer file transfer application using WebRTC technology that enables direct browser-to-browser file sharing without a central server.",
     tags: ["WebRTC"],
-    projectLink: "https://shine-agro.webflow.io/",
+    projectLink: "https://webrtc-file-transfer.vercel.app/",
     imageUrl: WebRtc,
     category: "Freelance",
     type: "Self",
