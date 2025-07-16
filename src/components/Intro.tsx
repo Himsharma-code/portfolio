@@ -96,7 +96,7 @@ export default function Intro() {
         <a
           href="/Himanshu_Sharma_CV_15_6_2.pdf"
           className="group bg-white  px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none transition hover:bg-gray-100
-           active:scale-95 border border-black/20 dark:bg-white/10"
+           active:scale-95 border border-black/20 dark:bg-white/10 dark:hover:text-black "
         >
           Download CV{" "}
           <HiDownload className="group-hover:translate-y-1 transition hover:text-gray-950" />
