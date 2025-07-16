@@ -2,12 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { SiFreelancer } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
-import cybertruck from "../../public/cybertruck.png";
-import Ecars from "../../public/Ecars.png";
 import WebRtc from "../../public/web-rtc.png";
 import Wordle from "../../public/wordle.png";
-import Hoobank from "../../public/hoobank.png";
-import Raydee from "../../public/raydee.png";
+import Raydee from "../../public/habit.png";
 
 export const links = [
   {
@@ -91,16 +88,16 @@ export const projectsData = [
     category: "Freelance",
     type: "Self",
   },
-  // {
-  //   title: "The Raydee Cafe",
-  //   description:
-  //     "This project was realy close to my heart. One of my friend decided to do a startup called The Raydee Cafe and he wanted a single-page website for his business",
-  //   tags: ["Webflow", "Finsweet attrs"],
-  //   projectLink: "https://the-raydee-cafe.webflow.io/",
-  //   imageUrl: Raydee,
-  //   category: "Freelance",
-  //   type: "Self",
-  // },
+  {
+    title: "Daily Habit Tracker",
+    description:
+      "A modern habit tracking application built with Next.js, TypeScript, and Tailwind CSS. Track your daily routines, set goals, and visualize your progress with intuitive weekly/monthly views.",
+    tags: [],
+    projectLink: "https://daily-habit-tracker-pi.vercel.app/",
+    imageUrl: Raydee,
+    category: "Freelance",
+    type: "Self",
+  },
   // {
   //   title: "Hoobank",
   //   description:
