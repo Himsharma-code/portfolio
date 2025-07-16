@@ -94,7 +94,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/Himanshu_MERN_Stack_dev.pdf"
+          href="/Himanshu_Sharma_CV_15_6_2.pdf"
           className="group bg-white  px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none transition hover:bg-gray-100
            active:scale-95 border border-black/20 dark:bg-white/10"
         >

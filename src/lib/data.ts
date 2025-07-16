@@ -4,7 +4,7 @@ import { SiFreelancer } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
 import cybertruck from "../../public/cybertruck.png";
 import Ecars from "../../public/Ecars.png";
-import Shineagro from "../../public/shineagro.png";
+import WebRtc from "../../public/web-rtc.png";
 import Greatlart from "../../public/greatlark.png";
 import Hoobank from "../../public/hoobank.png";
 import Raydee from "../../public/raydee.png";
@@ -72,14 +72,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Shine-agro-tech",
+    title: "WebRTC File Transfer",
     description:
-      "I worked as a freelancer on this project which was related to agricultural based company.",
-    tags: ["Webflow", "Finsweet attrs", "Gsap"],
+      "A peer-to-peer file transfer application using WebRTC technology that enables direct browser-to-browser file sharing without a central server.",
+    tags: ["WebRTC"],
     projectLink: "https://shine-agro.webflow.io/",
-    imageUrl: Shineagro,
+    imageUrl: WebRtc,
     category: "Freelance",
-    type: "Freelance",
+    type: "Self",
   },
   {
     title: "GreatLark",
@@ -89,7 +89,7 @@ export const projectsData = [
     projectLink: "https://greatlark.webflow.io/",
     imageUrl: Greatlart,
     category: "Freelance",
-    type: "Freelance",
+    type: "Self",
   },
   {
     title: "The Raydee Cafe",
@@ -99,7 +99,7 @@ export const projectsData = [
     projectLink: "https://the-raydee-cafe.webflow.io/",
     imageUrl: Raydee,
     category: "Freelance",
-    type: "Freelance",
+    type: "Self",
   },
   {
     title: "Hoobank",
