@@ -60,7 +60,7 @@ export default function About() {
               <span className="text-yellow-200">const TechStack = &#91;</span>{" "}
               <br />
               'NextJs', 'ReactJs', 'Redux' , 'MongoDB', 'JavaScript',
-              'TypeScript', 'Postgres', 'GraphQL'
+              'TypeScript', 'Postgres', 'GraphQL', 'Nodejs'
               {/* <span className="text-green-400 mt-1">
                 {" "}
                 <br /> &frasl;* I'm also familiar with Nodejs, Typescript, SQL ,

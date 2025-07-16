@@ -76,12 +76,12 @@ export default function Contact() {
 
             <div className="flex justify-start items-center gap-3">
               <a
-                href="https://www.linkedin.com/in/suhel-khan-925aa222a/"
+                href="https://www.linkedin.com/in/himanshu-sharma-672429202/"
                 target="_blank"
               >
                 <BsLinkedin className="text-[1.25rem] " />
               </a>
-              <a href="https://github.com/Suhelkhan12" target="_blank">
+              <a href="https://github.com/Himsharma-code" target="_blank">
                 <BsGithub className="text-[1.25rem] " />
               </a>
             </div>
