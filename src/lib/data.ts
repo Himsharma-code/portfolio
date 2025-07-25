@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import WebRtc from "../../public/web-rtc.png";
 import Wordle from "../../public/wordle.png";
 import Raydee from "../../public/habit.png";
+import TTSApp from "../../public/tts.png";
 
 export const links = [
   {
@@ -95,6 +96,16 @@ export const projectsData = [
     tags: [],
     projectLink: "https://daily-habit-tracker-pi.vercel.app/",
     imageUrl: Raydee,
+    category: "Freelance",
+    type: "Self",
+  },
+  {
+    title: "Text-to-Speech Web App",
+    description:
+      "A browser-based TTS app built with Next.js and Web Speech API, featuring voice selection, speech controls, theme toggle.",
+    tags: ["Next.js", "Web Speech API"],
+    projectLink: "https://tts-web-app-pi.vercel.app/",
+    imageUrl: TTSApp, // make sure to import this image
     category: "Freelance",
     type: "Self",
   },
