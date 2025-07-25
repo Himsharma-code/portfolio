@@ -100,7 +100,7 @@ export const projectsData = [
     type: "Self",
   },
   {
-    title: "Text-to-Speech Web App",
+    title: "Text to Speech Web App",
     description:
       "A browser-based TTS app built with Next.js and Web Speech API, featuring voice selection, speech controls, theme toggle.",
     tags: ["Next.js", "Web Speech API"],
